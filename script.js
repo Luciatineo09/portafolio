@@ -2,14 +2,19 @@ document.addEventListener("DOMContentLoaded", () => {
   let lastScrollY = window.scrollY;
   const navbar = document.querySelector("nav");
   const navList = document.querySelector(".nav-list");
+
   const menuToggle = document.createElement("div");
   menuToggle.classList.add("menu-toggle");
   menuToggle.textContent = "☰";
-  navbar.appendChild(menuToggle);
+  if (window.innerWidth <= 768){
+    navbar.appendChild(menuToggle);
+    menuToggle.addEventListener("click", () => {
+      navList.classList.toggle("show");
+      
+    });
 
-  menuToggle.addEventListener("click", () => {
-    navList.classList.toggle("show");
-  });
+  }
+
 
   window.addEventListener("scroll", () => {
     if (window.scrollY > lastScrollY) {
