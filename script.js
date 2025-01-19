@@ -6,13 +6,12 @@ document.addEventListener("DOMContentLoaded", () => {
   const menuToggle = document.createElement("div");
   menuToggle.classList.add("menu-toggle");
   menuToggle.textContent = "☰";
+
   if (window.innerWidth <= 768){
     navbar.appendChild(menuToggle);
     menuToggle.addEventListener("click", () => {
       navList.classList.toggle("show");
-      
-    });
-
+      });
   }
 
 

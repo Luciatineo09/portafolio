@@ -90,18 +90,32 @@ h1{
   width: 100px;
 }
 
-/* section acerca de mi */
+/* ----section acerca de mi ----*/
 #section2{
   display: flex;
   justify-content: center;
+  gap: 100px;
 }
 .about-me{
   display: flex;
   flex-direction: column;
-  width: 300px;
+  width: 400px;
+  gap: 10px;
 }
+h4{
+  font-size: 1.3em;
+}
+
 .foto{
   height: 200px;
+}
+button{
+  color: white;
+  background-color: #8B0330;
+  width: 10rem;
+  height: 25px;
+  border-radius: 10px;
+  margin-top: 10px;
 }
 
 /* Media para barra de navegación */
