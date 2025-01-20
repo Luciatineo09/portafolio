@@ -63,7 +63,7 @@ nav.transparent {
 }
 
 .nav-link:hover::after, .nav-link:focus::after, .nav-link.active::after {
-  width: 100%;
+  /* width: 100%; */
 }
 
 ul{
@@ -84,6 +84,7 @@ h1{
   flex-direction: column;
   align-items: center;
   background-color: #AEB6BE;
+  width: 100%;
 }
 .imgPrograming{
   height: 100px;
@@ -136,5 +137,8 @@ button{
     font-size: 20px;
     cursor: pointer;
     padding: 10px;
+  }
+  #section1{
+    width: 100%;
   }
 }

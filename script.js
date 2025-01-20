@@ -12,8 +12,8 @@ document.addEventListener("DOMContentLoaded", () => {
     menuToggle.addEventListener("click", () => {
       navList.classList.toggle("show");
       });
+      
   }
-
 
   window.addEventListener("scroll", () => {
     if (window.scrollY > lastScrollY) {
