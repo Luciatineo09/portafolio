@@ -6,7 +6,6 @@
 
 body {
   font-family: "Fira Sans", serif;
-  line-height: 1.6;
 }
 
 nav {
@@ -22,10 +21,6 @@ nav {
 
 nav.hidden {
   transform: translateY(-100%);
-}
-
-nav.transparent {
-  background-color: rgb(188, 215, 230)B;
 }
 
 .nav-list {
@@ -62,12 +57,8 @@ nav.transparent {
   transition: width 0.3s ease;
 }
 
-.menu-toggle{
-  visibility: hidden
-}
-
 .nav-link:hover::after, .nav-link:focus::after, .nav-link.active::after {
-  width: 100%; 
+  width: 100%;
 }
 
 ul{
@@ -76,60 +67,112 @@ ul{
 
 section {
   padding: 50px;
-  margin-top: 50px;
 }
 h1{
   font-size: 40px;
+  text-align: center;
+  margin-bottom: 2%;
+}
+.menu-toggle {
+  visibility: hidden;
 }
 
-/* ------Seción principal-------*/
+/* ----------------------Seción principal-------------*/
 #section1{
+  margin-top: 70px;
   display: flex;
   flex-direction: column;
   align-items: center;
   background-color: #AEB6BE;
-  width: 100%;
 }
 .imgPrograming{
   height: 100px;
   width: 100px;
 }
 
-/* ----section acerca de mi ----*/
+/* --------------------section acerca de mi ------------*/
 #section2{
   display: flex;
   justify-content: center;
-  gap: 100px;
+  align-items: center;
+  gap: 30px;
+
 }
 .about-me{
   display: flex;
   flex-direction: column;
-  width: 400px;
-  gap: 10px;
+  width: 40%;
 }
 h4{
-  font-size: 1.3em;
+  font-size: 1.5em;
+  margin-bottom: 3%;
 }
+p{
+  font-size: large;
+}
+/* .FotoEIconos{
+  border: 1px solid gray;
+} */
 
 .foto{
-  height: 200px;
+  border-radius: 20px;
+  height: 230px;
+  box-shadow: 0px 2px 5px #16425B;
+}
+.iconos{
+  display: flex;
+  justify-content:space-around;
+  padding: 3%;
+  transition: .3s ease;
 }
 
-section div .iconos{
-  gap: 10px;
-  border: ipx solid gray;
+.iconos a img:hover{
+  cursor: pointer;
+  transform: scale(1.1);
+  
 }
+
 button{
   color: white;
   background-color: #8B0330;
-  width: 10rem;
-  height: 25px;
+  width: 12rem;
+  height: 30px;
   border-radius: 10px;
   margin-top: 10px;
+  cursor: pointer;
+}
+/* -----------------seccion 3-------------------- */
+
+.carts{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 2%;
 }
 
-/* Media para barra de navegación */
+.cart-main{
+  border: 1px solid gray;
+  width: 20%;
+  height: 300px;
+  border-radius: 0px 0px 20px 20px;
+  box-shadow: 0px 2px 5px #16425B;
+}
+
+.cart-tittle{
+  color: white;
+  background-color: #8B0330;
+  height: 15%;
+}
+h3{
+  text-align: center;
+}
+
+
+/* ------------ESTILO MOVIL ------------*/
 @media (max-width: 768px) {
+
+  /* ------------Media para barra de navegación ------------*/
+
   .nav-list {
     display: none;
     flex-direction: column;
@@ -147,8 +190,5 @@ button{
     font-size: 20px;
     cursor: pointer;
     padding: 10px;
-  }
-  #section1{
-    width: 100%;
   }
 }
