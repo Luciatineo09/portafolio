@@ -7,14 +7,11 @@ document.addEventListener("DOMContentLoaded", () => {
   menuToggle.classList.add("menu-toggle");
   menuToggle.textContent = "☰";
 
-  if (window.innerWidth <= 768){
-    navbar.appendChild(menuToggle);
-    menuToggle.addEventListener("click", () => {
-      navList.classList.toggle("show");
-      });
-      
-  }
-
+  navbar.appendChild(menuToggle);
+  menuToggle.addEventListener("click", () => {
+    navList.classList.toggle("show");
+    });
+ 
   window.addEventListener("scroll", () => {
     if (window.scrollY > lastScrollY) {
       navbar.classList.add("hidden");

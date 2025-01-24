@@ -62,8 +62,12 @@ nav.transparent {
   transition: width 0.3s ease;
 }
 
+.menu-toggle{
+  visibility: hidden
+}
+
 .nav-link:hover::after, .nav-link:focus::after, .nav-link.active::after {
-  /* width: 100%; */
+  width: 100%; 
 }
 
 ul{
@@ -110,6 +114,11 @@ h4{
 .foto{
   height: 200px;
 }
+
+section div .iconos{
+  gap: 10px;
+  border: ipx solid gray;
+}
 button{
   color: white;
   background-color: #8B0330;
@@ -132,6 +141,7 @@ button{
   }
 
   .menu-toggle {
+    visibility: visible;
     display: block;
     color: white;
     font-size: 20px;
