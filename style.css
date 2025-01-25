@@ -1,3 +1,4 @@
+
 * {
   margin: 0;
   padding: 0;
@@ -5,12 +6,18 @@
 }
 
 body {
-  font-family: "Fira Sans", serif;
+  font-family: "Nunito", serif;
+  font-style: normal;
+
 }
+
+/* ----------------- Menu de navegación ---------------*/
 
 nav {
   background-color: #16425B;
-  padding: 10px 20px;
+  color: white;
+  padding: 10px 10px ;
+  padding-top: 20px;
   position: fixed;
   top: 0;
   left: 0;
@@ -69,11 +76,15 @@ section {
   padding: 50px;
 }
 h1{
+  font-family: "Oswald", serif;
+  font-style: normal;
   font-size: 40px;
   text-align: center;
-  margin-bottom: 2%;
+  /* margin-bottom: 5%; */
+  padding-bottom: 2%;
 }
 .menu-toggle {
+  height: 0px;
   visibility: hidden;
 }
 
@@ -110,9 +121,7 @@ h4{
 p{
   font-size: large;
 }
-/* .FotoEIconos{
-  border: 1px solid gray;
-} */
+
 
 .foto{
   border-radius: 20px;
@@ -136,10 +145,16 @@ button{
   color: white;
   background-color: #8B0330;
   width: 12rem;
-  height: 30px;
+  height: 32px;
   border-radius: 10px;
-  margin-top: 10px;
+  margin-top: 15px;
   cursor: pointer;
+  font-weight: bold;
+  border: none;
+}
+
+button:hover{
+  background-color: #a11e49;
 }
 /* -----------------seccion 3-------------------- */
 
@@ -159,6 +174,9 @@ button{
 }
 
 .cart-tittle{
+  display: flex;
+  justify-content: center;
+  align-items: center;
   color: white;
   background-color: #8B0330;
   height: 15%;
@@ -167,6 +185,25 @@ h3{
   text-align: center;
 }
 
+.inside{
+  display: flex;
+  flex-direction: row;
+  padding: 10%;
+  gap: 20px;
+  justify-content: space-around;
+}
+
+.more-inside{
+  margin: 7px;
+}
+
+/* ----------------- Setion 4 ---------------*/
+
+#section4{
+  /* background-color: #16425B; */
+  background: linear-gradient(#16425B, #91b3c6);
+  color: white;
+}
 
 /* ------------ESTILO MOVIL ------------*/
 @media (max-width: 768px) {
@@ -190,5 +227,7 @@ h3{
     font-size: 20px;
     cursor: pointer;
     padding: 10px;
+    height: 10%;
+
   }
 }
