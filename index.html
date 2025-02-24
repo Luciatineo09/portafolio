@@ -30,11 +30,19 @@
     
       <section id="section1">
         <h1>Amalia Lucia Tineo Diaz</h1>
-        <h3>Full - Stack Junior Developer</h3>
+        <h3>Junior Full - Stack Developer</h3>
         <img src="/img/Programing.png" alt="" class="imgPrograming">
       </section>
 
       <section id="section2">
+        <div class="FotoEIconos">
+          <img src="img/foto.jpg" alt="" class="foto">
+          <div class="iconos">
+             <a href="https://www.linkedin.com/in/amalia-lucia-tineo-diaz-developer/" target="_blank"><img class="icons" src="/svg/Linkedin.svg" alt=""></a>
+             <a href="https://github.com/Luciatineo09" target="_blank"> <img src="/svg/GitHup.svg" class="icons" alt=""> </a>
+             <a href="mailto:amaliatineo09@gmail.com" target="_blank"> <img src="/svg/email.svg" class="icons" alt=""> </a>
+          </div>
+        </div>
         <div class="about-me">
           <h4>Un poco acerca de mi</h4>
           <p>Siempre trabajo pensando en cómo facilitar la experiencia 
@@ -42,64 +50,63 @@
             Gracias a mi adaptabilidad y ganas de aprender, puedo asumir nuevos retos 
             rápidamente y aportar valor desde el primer momento.
           </p>
-          <button>Descarga mi CV</button>
-        </div>
-        <div class="FotoEIconos">
-          <img src="img/foto.jpg" alt="" class="foto">
-          <div class="iconos">
-             <a href="https://www.linkedin.com/in/amalia-lucia-tineo-diaz-developer/" target="_blank"><img src="/svg/Linkedin.svg" alt=""></a>
-             <a href="https://github.com/Luciatineo09" target="_blank"> <img src="/svg/GitHup.svg" alt=""> </a>
-          </div>
+          <a href="/docs/CurriculumVitae-AmaliaTineo.pdf" target="_blank"><button>Descarga mi CV</button></a>
         </div>
       </section>
+
+      <!------------ seccion 3 Tecnical Skills ------------------->
 
       <section id="section3">
         <h1>Technical skills</h1>
         <div class="carts">
-        <div class="cart-main">
-          <div class="cart-tittle"><h3>Fronted</h3></div>
-          <div class="inside">
-            <div>
-              <div class="more-inside"><img src="/svg/html.svg" alt=""> <p>HTML</p></div>
-              <div class="more-inside"><img src="/svg/CSS.svg" alt=""> <p>CSS</p></div>
+
+          <div class="next-to">
+
+            <div class="cart-main">
+              <div class="cart-tittle"><h3>Fronted</h3></div>
+              <div class="inside">
+                  <img class="skills" src="/svg/html.svg" alt="">
+                  <img class="skills" src="/svg/CSS.svg" alt=""> 
+                  <img  class="skills" src="/svg/JavaScrip.svg" alt="">
+                  <img class="skills" src="/svg/bootstrap.svg" alt="">
+              </div>
             </div>
-            <div>
-              <div class="more-inside"><img src="/svg/JavaScrip.svg" alt=""><P>JavaScrip</P></div>
-              <div class="more-inside"><img src="/svg/bootstrap.svg" alt=""><P>bootstrap</P> </div>
+  
+            <div class="cart-main">
+              <div class="cart-tittle"><h3>Backend</h3></div>
+              <div class="inside">
+                <img class="skills" src="/svg/Java.svg" alt="">
+                <img class="skills"src="/svg/Python.svg" alt="">
+                <img class="skills" src="/svg/MySql.svg" alt="">
+              </div>
             </div>
-          </div>
-        </div>
-
-        <div class="cart-main">
-          <div class="cart-tittle"><h3>Backend</h3></div>
-          <div class="inside">
-            <div><img src="/svg/Java.svg" alt=""></div>
-            <div><img src="/svg/Python.svg" alt=""></div>
-            <div><img src="/svg/MySql.svg" alt=""></div>
 
           </div>
-        </div>
 
-        <div class="cart-main">
-          <div class="cart-tittle"><h3>Tools</h3></div>
-          <div class="inside">
-            <dir><img src="/svg/VSCode.svg" alt=""><label fo></label></dir>
-            <dir><img src="/svg/Git.svg" alt=""></dir>
-            <dir><img src="/svg/GitHup.svg" alt=""></dir>
-            <dir><img src="/svg/figma.svg" alt=""></dir>
+          <div class="next-to">
+
+            <div class="cart-main">
+              <div class="cart-tittle"><h3>Tools</h3></div>
+              <div class="inside">
+                <img class="skills" src="/svg/VSCode.svg" alt=""><label fo></label>
+                <img class="skills" src="/svg/Git.svg" alt="">
+                <img class="skills" src="/svg/GitHup.svg" alt="">
+                <img class="skills" src="/svg/figma.svg" alt="">
+              </div>
+  
+            </div>
+  
+            <div class="cart-main">
+              <div class="cart-tittle"><h3>To learn</h3></div>
+              <div class="inside">
+                <img class="skills" src="/svg/Sass.svg" alt=""> 
+                <img class="skills" src="/svg/sprinboot.svg" alt=""> 
+                <img class="skills" src="/svg/Angular.svg" alt=""> 
+              </div>
+            </div>
+
           </div>
 
-        </div>
-
-        <div class="cart-main">
-          <div class="cart-tittle"><h3>To learn</h3></div>
-          <div class="inside">
-            <div><img src="/svg/Sass.svg" alt=""> </div>
-            <div><img src="/svg/sprinboot.svg" alt=""> </div>
-            <div><img src="/svg/Angular.svg" alt=""> </div>
-          </div>
-
-        </div>
         </div>
 
       </section>
@@ -108,39 +115,21 @@
       <section id="section4">
         <h1>Proyectos</h1>
 
-        <div class="row row-cols-1 row-cols-md-3 g-4">
-
-          <div class="col">
-            <div class="card h-100">
-              <img src="/img/Project1.jpg" class="card-img-top" alt="...">
-              <div class="card-body">
-                <h5 class="card-title">Blog - Metodologías SCRUM</h5>
-                <p class="card-text">Hicimos un blog donde se describe las metodologías SCRUM, el objetivo fue informar a los futuros programadores todo acerca del tema
-                  El rol que desempeñé fue la estructuración de la página sobre nosotros. Utilicé HTML, CSS y Bootstrap. 
-                </p>
-                <a href="#" class="btn btn-primary">Demo</a>
-                <a href="https://github.com/natalia-ramosruiz/LAB-El-sitio-del-blog.git" class="btn btn-primary">GitHup</a>
-
-              </div>
-              <div class="card-footer">
-                <small class="text-body-secondary">Last updated 3 mins ago</small>
-              </div>
-            </div>
-          </div>
+        <div class="row row-cols-1 row-cols-md-4 g-3">
           
           <div class="col">
             <div class="card h-100">
               <img src="/img/Project2.png" class="card-img-top" alt="imagen-logo">
               <div class="card-body">
-                <h5 class="card-title">Landing Pague - swimming shop</h5>
-                <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-                <a href="#" class="btn btn-primary">Demo</a>
-                <a href="https://github.com/AlejandroG095/-AquaWear-Landing-page.git" class="btn btn-primary">GitHup</a>
+                <h5 class="card-title">AquaWear | Landing-page</h5>
+                <p class="card-text">Tienda de ropa de natación, en la que fuí desarrolladora Fronted usando HTML, CSS y bootstrap</p>
 
               </div>
-              <div class="card-footer">
-                <small class="text-body-secondary">Last updated 3 mins ago</small>
+              <div class="card-footer" >
+                <a href="#" class="btn btn-dark"">Demo</a>
+                <a href="https://github.com/AlejandroG095/-AquaWear-Landing-page.git" class="btn btn-dark">GitHup</a>
               </div>
+
             </div>
           </div>
 
@@ -148,15 +137,16 @@
             <div class="card h-100">
               <img src="/img/project3.jpg" class="card-img-top" alt="imagen-logo">
               <div class="card-body">
-                <h5 class="card-title">E-comerce - Tienda de ropa y accesorios</h5>
-                <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-                <a href="#" class="btn btn-primary">Demo</a>
-                <a href="" class="btn btn-primary">GitHup</a>
+                <h5 class="card-title">Elevia | E-comerce</h5>
+                <p class="card-text">Tienda de ropa y accesorios, Desarrollo fronted y Backend usando HTML, CSS, JavaScrip, SQL, Java y Sprinboot</p>
 
               </div>
               <div class="card-footer">
-                <small class="text-body-secondary">Last updated 3 mins ago</small>
+                <a href="#" class="btn btn-dark">Demo</a>
+                <a href="" class="btn btn-dark">GitHup</a>
+
               </div>
+
             </div>
           </div>
         </div>
@@ -164,35 +154,43 @@
       </section>
       
       <!-- -------------------------section 5 - EDUCACIÓN --------------------------->
+      <h1>Educación</h1>
+
       <section id="section5">
-        <h1>Educación</h1>
-
-        <div class="card text-center mb-3" style="width: 18rem;">
-          <div class="card-body">
-            <h5 class="card-title">Special title treatment</h5>
-            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-            <a href="#" class="btn btn-primary">Go somewhere</a>
+        <div class="timeline">
+          <div class="event left"> Bootcamp Full - Stack Java | Generation (Nov 2024 - Feb 2025)
+              <a href="#" target="_blank">Ver Certificado</a>
+          </div>
+          <div class="event right">Diplomado en Linux | UNAD (Jun 2023 - Dic 2023)
+              <a href="#" target="_blank">Ver Certificado</a>
+          </div>
+          <div class="event left">Pregrado Ingeniería de Sistemas | UNAD (Feb 2019 - Dic 2023)
+              <a href="#" target="_blank">Ver Certificado</a>
           </div>
         </div>
-
-        <div class="card text-center mb-3" style="width: 18rem;">
-          <div class="card-body">
-            <h5 class="card-title">Special title treatment</h5>
-            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-            <a href="#" class="btn btn-primary">Go somewhere</a>
-          </div>
-        </div>
-
-        <div class="card text-center mb-3" style="width: 18rem;">
-          <div class="card-body">
-            <h5 class="card-title">Special title treatment</h5>
-            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-            <a href="#" class="btn btn-primary">Go somewhere</a>
-          </div>
-        </div>
-
       </section>
-      <section id="section6">Sección 6</section>
+
+      <!-- -------------------------section 6 - Hoja de vida --------------------------->
+
+      <section id="section6">Hoja de vida</section>
+
+      <!-- -------------------------section 7 - Contactame --------------------------->
+
+      <section id="section6">Contactame</section>
+
+      <footer class="footer">
+        <div>
+            <i>A M A L I A</i>
+            <img src="img/Programing.png" alt="Logo">
+        </div>
+        <div class="footer-links">
+            <a href="#" target="_blank">LinkedIn</a>
+            <a href="#" target="_blank">GitHub</a>
+            <a href="mailto:tuemail@example.com">Correo</a>
+        </div>
+        <p>&copy; 2025 Tu Nombre. Todos los derechos reservados.</p>
+    </footer>
+
     <script src="script.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
