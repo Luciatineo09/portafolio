@@ -428,3 +428,15 @@ h3{
     flex-direction: column;
   }
 }
+@media(max-width: 425px) {
+
+    /* -----------------seccion 3-------------------- */
+    .cart-tittle{
+      height: 6%;
+      padding: 0px;
+    }
+    .next-to{
+      flex-direction: column;
+    }
+  
+}
